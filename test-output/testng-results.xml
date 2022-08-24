@@ -2,24 +2,16 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-24T11:09:55Z" name="Default suite" finished-at="2022-08-24T11:09:55Z" duration-ms="593">
+  <suite started-at="2022-08-24T13:38:33Z" name="Default suite" finished-at="2022-08-24T13:39:00Z" duration-ms="27134">
     <groups>
     </groups>
-    <test started-at="2022-08-24T11:09:55Z" name="Default test" finished-at="2022-08-24T11:09:55Z" duration-ms="593">
-      <class name="sql.testing.SPTesting">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sql.testing.SPTesting@4145bad8]" started-at="2022-08-24T16:39:55Z" name="setUp" finished-at="2022-08-24T16:39:55Z" duration-ms="529" status="PASS">
+    <test started-at="2022-08-24T13:38:33Z" name="Default test" finished-at="2022-08-24T13:39:00Z" duration-ms="27134">
+      <class name="sql.testing.SeleniumTest">
+        <test-method signature="m1()[pri:0, instance:sql.testing.SeleniumTest@3c77d488]" started-at="2022-08-24T19:08:33Z" name="m1" finished-at="2022-08-24T19:09:00Z" duration-ms="27121" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:sql.testing.SPTesting@4145bad8]" started-at="2022-08-24T16:39:55Z" name="test" finished-at="2022-08-24T16:39:55Z" duration-ms="44" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sql.testing.SPTesting@4145bad8]" started-at="2022-08-24T16:39:55Z" name="tearDown" finished-at="2022-08-24T16:39:55Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- sql.testing.SPTesting -->
+        </test-method> <!-- m1 -->
+      </class> <!-- sql.testing.SeleniumTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

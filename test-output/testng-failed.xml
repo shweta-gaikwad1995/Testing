@@ -3,13 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="sql.testing.SPTesting">
+      <class name="sql.testing.SeleniumTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="getEmployeesFromDataBase"/>
+          <include name="connect"/>
         </methods>
-      </class> <!-- sql.testing.SPTesting -->
+      </class> <!-- sql.testing.SeleniumTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
