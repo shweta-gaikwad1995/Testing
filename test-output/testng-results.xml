@@ -2,16 +2,20 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-24T13:38:33Z" name="Default suite" finished-at="2022-08-24T13:39:00Z" duration-ms="27134">
+  <suite started-at="2023-04-07T09:30:50Z" name="Default suite" finished-at="2023-04-07T09:31:06Z" duration-ms="15893">
     <groups>
     </groups>
-    <test started-at="2022-08-24T13:38:33Z" name="Default test" finished-at="2022-08-24T13:39:00Z" duration-ms="27134">
-      <class name="sql.testing.SeleniumTest">
-        <test-method signature="m1()[pri:0, instance:sql.testing.SeleniumTest@3c77d488]" started-at="2022-08-24T19:08:33Z" name="m1" finished-at="2022-08-24T19:09:00Z" duration-ms="27121" status="PASS">
+    <test started-at="2023-04-07T09:30:50Z" name="Default test" finished-at="2023-04-07T09:31:06Z" duration-ms="15893">
+      <class name="com.test.layer.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.layer.HomePageTest@2a7f1f10]" started-at="2023-04-07T15:00:50Z" name="setup" finished-at="2023-04-07T15:01:05Z" duration-ms="14971" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-      </class> <!-- sql.testing.SeleniumTest -->
+        </test-method> <!-- setup -->
+        <test-method signature="Componenets()[pri:0, instance:com.test.layer.HomePageTest@2a7f1f10]" started-at="2023-04-07T15:01:05Z" name="Componenets" finished-at="2023-04-07T15:01:06Z" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Componenets -->
+      </class> <!-- com.test.layer.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
